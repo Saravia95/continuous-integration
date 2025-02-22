@@ -1,0 +1,157 @@
+#root {
+  /* margin: 0; */
+  /* text-align: center; */
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  width: 98vw;
+  height: 98vh;
+
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+body {
+  font-family: akiraExtendedFont;
+
+  /* font-family: Arial, sans-serif; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  background-image: url('/images/DemoScreenShotBG-Latest.png');
+  background-size: cover; /* Makes the image cover the entire element */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+
+
+.container1 {
+  /* display: flex;
+  flex-direction: column; */
+  /* margin-top: 0vh; */
+  margin: auto;
+ 
+  gap: 30px;
+}
+
+.container2 {
+  display: flex;
+  flex-direction: row;
+   margin-top: 18px; 
+ 
+  gap: 30px;
+}
+
+
+.portrait-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portrait {
+  width: 400px;
+  height: 60px;
+  margin:2%;
+  background-color: #0c0c0c;
+  border: 1px solid #00ccff;
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color:#FFFFFF;
+}
+
+.portrait-title {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+.header1 {
+    padding: 20px;
+    width: auto;
+    height: auto;
+    /* background-color: #333; */
+    background:radial-gradient(circle, #0080ff41 0%, rgba(128,128,128,0) 100%);
+    color: #fff;
+    /* display: flex; */
+    font-family: akiraExtendedFont;
+    text-shadow: 3px 3px #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0vh;
+}
+.header2 {
+  font-family: akiraExtendedFont;
+  width: auto;
+  height: auto;
+  text-shadow: 3px 3px #0080ff41;
+  background:radial-gradient(circle, #131313 0%, rgba(128,128,128,0) 100%);
+  color: #fff;
+  /* display: flex; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10vh;
+
+}
+.footer {
+  width: 830px; /* Width of two portraits + gap */
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+   position:absolute; 
+  background:radial-gradient(circle, rgb(28, 28, 28) 0%, rgba(128,128,128,0) 100%);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 16px;
+  font-weight: bold;
+  bottom: 0px;
+}
+@font-face {
+  font-family: akiraExtendedFont;
+  src: url('/fonts/Akira Expanded Demo.otf');
+}

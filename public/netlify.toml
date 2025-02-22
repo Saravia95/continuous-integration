@@ -1,0 +1,27 @@
+[[headers]]
+  for = "/build/production/WebGL.data.br"
+  [headers.values]
+    Content-Encoding = "br"
+    Content-Type = "application/octet-stream"
+    Large-Allocation = "true"
+
+[[headers]]
+  for = "/build/production/WebGL.wasm.br"
+  [headers.values]
+    Content-Encoding = "br"
+    Content-Type = "application/wasm"
+    Large-Allocation = "true"
+
+[[headers]]
+  for = "/build/production/WebGL.loader.js"
+  [headers.values]
+    Content-Encoding = "js"
+    Content-Type = "application/javascript"
+    Large-Allocation = "true"
+
+[[headers]]
+  for = "/build/production/WebGL.framework.js.br"
+  [headers.values]
+    Content-Encoding = "br"
+    Content-Type = "application/javascript"
+    Large-Allocation = "true"
